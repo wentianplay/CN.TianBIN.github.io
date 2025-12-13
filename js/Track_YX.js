@@ -1,7 +1,7 @@
 !(function() {
     YXDataSDK.init({
         appid: 82,
-        channel: "300官网"
+        channel: "天彬TianBIN官网"
     })
 
     function SendReport(name, args) {
@@ -14,7 +14,7 @@
         }
     }
     SendReport("web_view", {
-        web_title: "300官网"
+        web_title: "天彬TianBIN官网"
     })
 
     // 官网首页
@@ -36,10 +36,10 @@
     })
     $(".green_dl").click(e => {
         SendReport("web_click", {
-            click_name: "点击下载300英雄绿色版"
+            click_name: "点击下载天彬TianBIN国际版"
         })
         SendReport("web_download_request", {
-            request_name: "下载300英雄绿色版",
+            request_name: "天彬TianBIN国际版",
             request_link: e.target.href
         })
     })
